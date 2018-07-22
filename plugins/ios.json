@@ -1,0 +1,24 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.vanward.cloudmarketing"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.vanward.cloudmarketing"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.vanward.cloudmarketing"
+    },
+    "phonegap-plugin-barcodescanner": {
+      "PACKAGE_NAME": "com.vanward.cloudmarketing"
+    }
+  },
+  "dependent_plugins": {}
+}
