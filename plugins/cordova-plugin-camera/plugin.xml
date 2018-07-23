@@ -112,7 +112,15 @@
          <framework src="MobileCoreServices.framework" />
          <framework src="CoreGraphics.framework" />
          <framework src="AVFoundation.framework" />
+         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+             <string>此APP需要使用摄像头</string>
+         </config-file>
 
+         <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+             <string>此APP需要访问你的相册</string>
+         </config-file>
+         <config-file target="*-Info.plist" parent="NSContactsUsageDescription"></config-file>
+         <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription"></config-file>
      </platform>
 
     <!-- browser -->

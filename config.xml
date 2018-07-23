@@ -26,5 +26,5 @@
     <plugin name="phonegap-plugin-barcodescanner" spec="^8.0.0" />
     <plugin name="cordova-plugin-network-information" spec="^2.0.1" />
     <plugin name="cordova-plugin-camera" spec="^4.0.3" />
-    <engine name="ios" spec="^4.5.4" />
+    <engine name="ios" spec="~4.5.4" />
 </widget>
